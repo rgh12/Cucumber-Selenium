@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: StepDefinations.TestRunnerForBackgroundDemo
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.077 s <<< FAILURE! - in StepDefinations.TestRunnerForBackgroundDemo
+check logout link(check home page functionality)  Time elapsed: 0.071 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'user clicks on performance link' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user clicks on performance link")
+public void user_clicks_on_performance_link() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("My Trackers link is displayed")
+public void my_trackers_link_is_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+verify quick launch toolbar is present(check home page functionality)  Time elapsed: 0.005 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'user clicks on dashboard link' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user clicks on dashboard link")
+public void user_clicks_on_dashboard_link() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("quick launch toolbar is displayed")
+public void quick_launch_toolbar_is_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
